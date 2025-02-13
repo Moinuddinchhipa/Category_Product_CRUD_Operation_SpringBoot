@@ -1,6 +1,5 @@
 # Category_Product_CRUD_Operation_SpringBoot
 
-# Category and Product CRUD API with Spring Boot
 
 This project implements a RESTful API for managing categories and products, with a one-to-many relationship between them.  It uses Spring Boot, JPA/Hibernate, and a relational database (MySQL).
 
@@ -20,7 +19,7 @@ The following requirements were implemented:
 
 1.  **GET all categories (with pagination):**
 
-    *   URL: `/api/categories?page={page}&size={size}`
+    *   URL: `localhost:8181/api/categories?page={page}&size={size}`
     *   Method: GET
     *   Description: Retrieves all categories with server-side pagination.
     *   Parameters:
@@ -124,7 +123,7 @@ A one-to-many relationship is implemented between Category and Product. One cate
 
 1.  **Clone the Repository:** (You'll need to create the repository and push the code first)
     ```bash
-    git clone <repository_url>
+    git clone <[repository_url](https://github.com/Moinuddinchhipa/Category_Product_CRUD_Operation_SpringBoot/tree/main)>
     ```
 
 2.  **Build the Project (Maven):**
